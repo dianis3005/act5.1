@@ -1,0 +1,156 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7fa; /* Fondo claro azul */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #0056b3; /* Azul oscuro */
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    border-bottom: 4px solid #003366; /* Azul más oscuro */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* Main container styles */
+main {
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Row and column styles */
+.row {
+    margin-bottom: 1.5rem;
+}
+
+.col {
+    padding: 1rem;
+    background-color: #e0f7fa; /* Azul claro */
+    border: 1px solid #b3e0e6; /* Azul suave */
+    border-radius: 4px;
+}
+
+/* Columnas Diferentes (8 y 4 md) */
+.col-md-8 {
+    background-color: #b3e0e6; /* Azul intermedio */
+    border: 1px solid #80c7d4;
+}
+
+.col-md-4 {
+    background-color: #80c7d4; /* Azul medio */
+    border: 1px solid #4f9ea3;
+}
+
+/* Columnas Diferentes con Columnas Anidadas */
+.row .row {
+    margin-top: 1rem;
+}
+
+.row .col-6 {
+    background-color: #a6cbe3; /* Azul pálido */
+    border: 1px solid #8db5d4;
+}
+
+/* Mezcla de columnas */
+.col-sm-3 {
+    background-color: #4f9ea3; /* Azul fuerte */
+    color: white;
+    border-radius: 4px;
+}
+
+.col-sm-9 {
+    background-color: #7fb5b5; /* Azul suave */
+    color: white;
+    border-radius: 4px;
+}
+
+/* Mezcla de Columnas (sm, lg) */
+.col-sm-6.col-lg-4 {
+    background-color: #006f9b; /* Azul intenso */
+    color: white;
+    border-radius: 4px;
+}
+
+.col-sm-6.col-lg-8 {
+    background-color: #005e8c; /* Azul más intenso */
+    color: white;
+    border-radius: 4px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #003366; /* Azul muy oscuro */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.3rem 0;
+}
+
+footer p:last-child {
+    font-size: 0.9rem;
+}
+
+/* Headings */
+h2 {
+    color: #0056b3; /* Azul medio */
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid #b3e0e6;
+    padding-bottom: 0.5rem;
+}
+
+/* Links */
+a {
+    color: #007bff; /* Azul claro */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Azul más oscuro */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .col {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
